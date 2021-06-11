@@ -39,3 +39,14 @@ class Oystercard
   end
 
 end
+
+class Station
+
+  attr_accessor :station_name, :zone
+
+  def initialize
+    @station_name = ""
+    @zone = 0
+  end
+
+end
